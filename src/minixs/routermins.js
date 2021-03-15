@@ -1,0 +1,42 @@
+export default {
+    data(){
+        return{
+         router:[
+             {
+                 title:'导航一',
+                 childes:[
+                    {
+                        name:'test',
+                    },
+                    {
+                        name:'side',
+                    }
+                ]
+             },
+             {
+                title:'导航二',
+                childes:[
+                    {
+                        name:'home',
+                    },
+                    {
+                        name:'conter',
+                    }
+                ]        
+            },
+            {
+                title:'导航三',
+                childes:[
+                    {
+                        name:'home',
+                    },
+                    {
+                        name:'side',
+                    }
+                ]
+            },
+         ]
+        }
+
+    },
+}
